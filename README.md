@@ -1,35 +1,30 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# Calculadora de BMR
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto inicialmente criado através do [Vite] (https://vitejs.dev)
 
-Currently, two official plugins are available:
+## Ideia do projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Neste projeto, vamos criar uma calculadora de BMR simples e eficaz. Projeto criado como teste para a implementação dos estudos envolvendo cálculo.
 
-## Expanding the ESLint configuration
+### `Requisitos`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+O projeto será realizado com:
 
-- Configure the top-level `parserOptions` property like this:
++ Typescript
++ React 
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+E deverá realizar as funções básicas de uma calculadora do gênero:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-=======
-# calculadorabmr
-Calculadora básica de BMR, baseada na Equação Revisada de Harris-Benedict.
->>>>>>> 1886fd8d28c63657cc09644bafa694211e2be406
+* >Identificar o gênero, idade, altura e peso;
+* >Calcular com base na fórmula padrão da Equação Revisada de Harris-Benedict;
+* >Aplicar o multiplicador esperado da equação apontada.
+
+### `To-do`
+
++ ~~Fórmula básica da equação revisada;~~
++ ~~Aplicação do multiplicador;~~
++ ~~Realização de um histórico, através de localStorage;~~
++ ~~Validação, não permitindo números negativos, tal como números muito altos;~~
++ ~~Ajeitar o CSS básico~~;
++ Adequar para SWITCH o multiplicador.
+
